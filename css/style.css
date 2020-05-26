@@ -1,0 +1,158 @@
+@font-face {
+	font-family: 'Simpsonfont';
+	src: url(../font/Simpsonfont.otf);
+}
+
+@font-face {
+	font-family: 'HeavyEquipment';
+	src: url(../font/HeavyEquipment.ttf);
+}
+
+html,
+body {
+	background-image: url(../img/bg.png);
+	margin: 0;
+}
+
+a {
+	color: black !important;
+	text-decoration: none !important;
+}
+
+.arrow {
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	width: 150px;
+}
+
+.topnav {
+	display: flex;
+	padding: 5px;
+	font-size: 30px;
+	color: black !important;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	font-family: "Simpsonfont";
+}
+
+.topnav .icon {
+	display: none;
+	z-index: 2;
+}
+
+#topmb1 {
+	display: none;
+	z-index: -1;
+}
+
+.map-responsive {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+
+.map-responsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.active {
+	border-bottom: 4px solid #FFF270 !important;
+}
+
+.menu {
+	border-bottom: 4px solid #FF90DF;
+}
+
+.menu:hover {
+	border-bottom: 4px solid #FFF270;
+}
+
+.icon {
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	font-size: 30px;
+}
+
+.menu1 {
+	position: absolute;
+	margin: 25% 1%;
+	padding: 1vh 4vw;
+	font-size: 20px;
+	z-index: 5;
+	font-family: "Simpsonfont";
+	color: #000 !important;
+	font-weight: 800;
+	text-shadow: 1px 1px #FF8FDF !important;
+}
+
+.menu2 {
+	position: absolute;
+	margin: 35% 1%;
+	padding: 2vh 4vw;
+	font-size: 20px;
+	z-index: 6;
+	font-family: "Simpsonfont";
+	color: #000 !important;
+	font-weight: 800;
+	text-shadow: 1px 1px #FF8FDF;
+}
+
+.menu3 {
+	position: absolute;
+	margin: 45% 1%;
+	padding: 3vh 4vw;
+	font-size: 20px;
+	z-index: 7;
+	font-family: "Simpsonfont";
+	color: #000 !important;
+	font-weight: 800;
+	text-shadow: 1px 1px #FF8FDF;
+}
+
+.menu4 {
+	position: absolute;
+	margin: 55% 1%;
+	padding: 3vh 4vw;
+	font-size: 20px;
+	z-index: 7;
+	font-family: "Simpsonfont";
+	color: #000 !important;
+	font-weight: 800;
+	text-shadow: 1px 1px #FF8FDF;
+}
+
+@media screen and (max-width: 400px) {
+	.hide-sm {
+		display: none !important;
+	}
+}
+
+@media only screen and (max-width: 600px) and (min-width: 402px) {
+	.flex-container > a {
+		display: none !important;
+	}
+}
+
+@media screen and (min-width: 401px) {
+	.hide-pc {
+		display: none !important;
+	}
+}
+
+.logo {
+	max-width: 100%;
+}
+
+.logotop {
+	background-color: #FFF270;
+	width: 100%;
+}
