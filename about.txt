@@ -1,0 +1,6 @@
+[
+    {
+        "text1": "Bronuts åbnede butikken i august 2019 på Silkeborgvej 247 i Åbyhøj. Bronuts havde allerede før de åbnede butikken fået en god start på de sociale medier.Da de allerede er populære på de forskellige sociale medier, havde de allerede en start boost - på antal følgere da de fik oprettet Bronuts siden.",
+        "text2": "Til at starte med spurgte han sine følgere om de ville hjælpe ham med at skaffe følgere til Bronuts instagram. Han håbede på at skaffe 500 følgere på en dag, men det gik nemmere end forventet. Bronuts Instagram profil fik 4000 følgere på en dag og nu har de 45,900 følgere. Bronuts har meget fokus på Instagram, da de ved at der er der de kan fange deres målgruppe. De har gjort butikken Instagram-venligt, så folk kan tage billeder derinde og dermed promovere kunderne Bronuts. Derudover inddrage de også deres følgere for at finde ud af hvilke donuts de kunne tænke sig at smage."
+    }
+]
