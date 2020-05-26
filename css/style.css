@@ -156,3 +156,126 @@ a {
 	background-color: #FFF270;
 	width: 100%;
 }
+
+.pricingTable {
+	font-family: 'HeavyEquipment';
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+
+.pricingTable .pricing-content {
+	background-color: #fff;
+	padding: 15px 0 20px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+	border-radius: 8px;
+}
+
+.pricingTable .pricingTable-header {
+	padding: 20px 10px;
+	margin: 0 0 5px;
+}
+
+.pricingTable .title {
+	color: #333;
+	font-size: 40px;
+	font-weight: 300;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	margin: 0;
+}
+
+.pricingTable .content-list {
+	padding: 0;
+	margin: 0 0 27px;
+	list-style: none;
+	display: inline-block;
+}
+
+.pricingTable .content-list li {
+	color: #333;
+	font-size: 16px;
+	text-transform: capitalize;
+	text-align: left;
+	padding: 0 0 0 35px;
+	margin: 0 0 27px;
+	position: relative;
+}
+
+.pricingTable .content-list li:last-child {
+	margin-bottom: 0;
+}
+
+.pricingTable .price-value {
+	margin: 0 0 20px;
+}
+
+.pricingTable .price-value .amount {
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 40px;
+	margin: 0 0 5px;
+	display: block;
+}
+
+.pricingTable .price-value .duration {
+	font-size: 16px;
+	display: block;
+}
+
+.pricingTable .pricingTable-signup a {
+	color: #fff;
+	background-color: #00A897;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding: 5px 25px;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	transition: all 0.3s;
+}
+
+.pricingTable .pricingTable-signup a:hover {
+	text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.pricingTable .pricingTable-signup a:after {
+	left: auto;
+	right: 0;
+}
+
+.register-left input {
+	border: none;
+	border-radius: 1.5rem;
+	padding: 2%;
+	width: 60%;
+	background: #f8f9fa;
+	font-weight: bold;
+	color: #383d41;
+	margin-top: 30%;
+	margin-bottom: 3%;
+	cursor: pointer;
+}
+
+.register .register-form {
+	padding: 10%;
+	margin-top: 10%;
+}
+
+.register-heading {
+	text-align: center;
+	margin-top: 8%;
+	margin-bottom: -15%;
+	color: #495057;
+}
+
+@media only screen and (max-width: 990px) {
+	.pricingTable {
+		margin-bottom: 50px;
+	}
+	.arrow {
+		display: none;
+	}
+}
