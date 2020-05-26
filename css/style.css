@@ -583,3 +583,40 @@ input[type=submit] {
 	color: #000;
 	margin-bottom: 7%;
 }
+
+footer {
+	background-color: #FF90DF;
+	padding: 20px;
+}
+
+.footermb {
+	width: 100%;
+	margin-bottom: 3%;
+	text-align: center;
+	background: #FF8FDF;
+	font-size: 25px;
+	font-family: "Simpsonfont";
+	border: 1px solid #000;
+	word-spacing: 5px;
+}
+
+.img2 {
+	max-width: 100%;
+}
+
+.socialmb {
+	max-width: 100%;
+	margin-bottom: 30%;
+}
+
+.socialmb1 {
+	margin-top: 2%;
+	left: 65% !important;
+	position: absolute;
+}
+
+.socialmb2 {
+	margin-top: 2%;
+	right: 65% !important;
+	position: absolute;
+}
